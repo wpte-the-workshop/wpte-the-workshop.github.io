@@ -1,0 +1,116 @@
+@font-face {
+  font-family: "PT Sans Bold";
+  font-style: normal;
+  font-weight: 700;
+  src: local("PT Sans Bold"), local("PTSans-Bold"), url("http://themes.googleusercontent.com/static/fonts/ptsans/v5/0XxGQsSc1g4rdRdjJKZrNBsxEYwM7FgeyaSgU71cLG0.woff") format("woff");
+}
+
+
+@font-face {
+  font-family: "PT Sans";
+  font-style: normal;
+  font-weight: 400;
+  src: local("PT Sans"), local("PTSans-Regular"), url("http://themes.googleusercontent.com/static/fonts/ptsans/v5/LKf8nhXsWg5ybwEGXk8UBQ.woff") format("woff");
+}
+
+  body {
+    font-family:'PT Sans',Arial,sans-serif;
+  }
+
+ .toptitle {
+      border-bottom-width : 0px;
+      border-left-width : 0px;
+      border-right-width : 0px;
+      border-top-width : 0px;
+      width : 800px;
+      color:#0b386b;
+      align:center;
+      margin-top:20px;
+      margin-bottom:20px;
+      margin-left:10px;
+ }
+
+ div.xml {
+    border: 1px solid powdergrey;
+    color: grey;
+}
+div.dtd {
+    border: 1px solid powderblue;
+    color: blue;
+}
+div.make {
+}
+code.declare {
+    color: darkblue;
+}
+
+p.declare {
+}
+
+p {
+
+}
+
+h1 {
+      margin-left : .7em;
+      padding: 0px;
+      align: center;
+      font-family: 'PT Sans Bold';
+      font-size:x-large;
+      color:#0b386b;
+  }
+
+h2 {
+    font-family:'PT Sans Bold';
+    color:#0b386b;
+    font-size:large;
+     padding: 0px;
+    }
+
+h4 {
+      margin : 0px;
+      padding: 0px;
+      font-family: 'PT Sans Bold';
+      font-size:large;
+  }
+
+
+h3 {
+    font-family:'PT Sans Bold';
+    color:#0b386b;
+    font-size:large;
+    }
+ /* CSS fuer Aufzaehlungslisten */
+
+  ul.list {
+    padding-top:9px;
+    padding-bottom:9px;
+  }
+
+  ul.list a {
+    color: #0A0A0A;
+  }
+
+  ul.list a:hover {
+    color: green;
+  }
+
+  ul.list li {
+    font-weight:normal;
+    list-style-type:square;
+    color:black;
+    padding-top:5px;
+    padding-bottom:2px;
+    margin-left:-20px;
+  }
+  
+   ul.pc li {
+    margin-left:-20px;
+    list-style-type:none;
+    padding-top:5px;
+    padding-bottom:5px;
+}   
+
+   section {
+       margin-left:1em;
+   }

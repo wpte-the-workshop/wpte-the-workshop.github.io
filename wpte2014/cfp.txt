@@ -1,0 +1,124 @@
+                            
+                            !!! EXTENDED DEADLINE !!!
+                               FINAL CALL FOR PAPERS
+
+                      First International Workshop on
+
+   Rewriting Techniques for Program Transformations and Evaluation (WPTE'14)   
+
+                        affiliated with RTA/TLCA 2014
+      (a FLoC 2014 workshop, FLoC is part of the Vienna Summer of Logic 2014)
+                       13th July 2014, Vienna, Austria
+
+              http://www.ki.informatik.uni-frankfurt.de/WPTE14
+
+
+
+Aims and Scope
+==============
+The aim of WPTE is to bring together the researchers working on 
+program transformations, evaluation, and operationally based programming
+language semantics, using rewriting methods, in order to share the
+techniques and recent developments and to exchange ideas to encourage
+further activation of research in this area.
+
+Topics of interest and in the scope of WPTE are:
+
+* Correctness of program transformations, optimizations and translations.
+* Program transformations for proving termination, confluence and other 
+  properties.
+* Correctness of evaluation strategies.
+* Operational semantics of programs, operationally-based program equivalences
+  such as contextual equivalences and bisimulations.
+* Cost-models for arguing about the optimizing power of transformations and the
+  costs of evaluation.
+* Program transformations for verification and theorem proving purposes.
+* Translation, simulation, equivalence of programs with different formalisms,
+  and evaluation strategies.
+* Program transformations for applying rewriting techniques to programs in 
+  specific programming languages.
+* Program inversions and program synthesis.
+
+The programming languages of interest include pure, deterministic, impure,
+non-deterministic, concurrent, parallel  languages, and may employ programming
+paradigms such as functional, logical, typed,  imperative, object-oriented, 
+and higher-order.
+
+Invited Speaker
+===============
+Andy Gill (University of Kansas)
+
+
+Paper Submissions and Proceedings
+=================================
+WPTE accepts two different kinds of contributions:
+
+* Full-papers: 
+  ------------
+   Full-papers must represent original work and should be submitted using the 
+   EasyChair interface.  We plan to publish full-papers as formal proceedings
+   in the 'OpenAccess Series in Informatics (OASIcs)' of 
+   'Schloss Dagstuhl Leibniz-Zentrum fuer Informatik'.
+   Full-papers should not exceed   12 pages   using the OASIcs LaTeX-templates.
+
+* Work in progress:
+  -----------------
+   There will also be a slot for presenting work in progress.
+   An extended abstract of at most   4 pages   is required to be submitted using 
+   the EasyChair interface.  These contributions will not be included in the 
+   OASIcs proceedings but they will be distributed to the workshop partipicants.
+
+One author of each accepted paper or abstract is expected to present 
+it at the workshop.
+
+Important Dates
+===============
+* Submission deadline: 30 April 2014 (new!)
+* Notification of acceptance: 23 May 2014
+* Deadline for camera-ready proceedings: 28 May 2014
+* Workshop:  13 July 2014, Austria, Vienna
+
+Weblinks
+========
+* EasyChair Submission Website
+  https://www.easychair.org/conferences/?conf=wpte14
+
+* Homepage of WPTE'14
+  http://www.ki.informatik.uni-frankfurt.de/WPTE14
+
+* OASIcs Website (including LaTeX templates):
+  http://www.dagstuhl.de/en/publications/oasics
+
+* Vienna Summer of Logic 2014
+  http://vsl2014.at
+
+Program Committee
+=================
+Takahito Aoto          (RIEC, Tohoku University)
+Yuki Chiba             (Japan Advanced Institute of Science and Technology)
+Fer-Jan de Vries       (University of Leicester)
+Santiago Escobar       (Universitat Politècnica de València)
+Maribel Fernández      (King's College London)
+Johan Jeuring          (Open Universiteit Nederland and Universiteit Utrecht)
+Delia Kesner           (Université Paris-Diderot)
+Sergueï Lenglet        (Université de Lorraine)
+Elena Machkasova       (University of Minnesota, Morris)
+Joachim Niehren        (INRIA Lille)
+David Sabel            (Goethe-University Frankfurt am Main)
+Masahiko Sakai         (Nagoya University)
+Manfred Schmidt-Schauß (Goethe-University Frankfurt am Main) - chair
+Eijiro Sumii           (Tohoku University)
+Janis Voigtländer      (University of Bonn)
+Harald Zankl           (University of Innsbruck)
+
+Organizers
+==========
+Manfred Schmidt-Schauß (Goethe-University Frankfurt am Main) - chair
+Masahiko Sakai         (Nagoya University) - chair
+David Sabel            (Goethe-University Frankfurt am Main)
+Yuki Chiba             (Japan Advanced Institute of Science and Technology)
+
+Sponsors
+========
+Vereinigung von Freunden und Förderern der Johann Wolfgang Goethe Universität
+Frankfurt am Main e.V.

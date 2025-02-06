@@ -1,0 +1,527 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+
+
+
+<head>
+  <title>WPTE'14</title>
+<!-- CSS -->
+<style type="text/css">
+
+@font-face {
+  font-family: "PT Sans Bold";
+  font-style: normal;
+  font-weight: 700;
+  src: local("PT Sans Bold"), local("PTSans-Bold"), url("1.woff") format("woff");
+}
+
+
+@font-face {
+  font-family: "PT Sans";
+  font-style: normal;
+  font-weight: 400;
+  src: local("PT Sans"), local("PTSans-Regular"), url("2.woff") format("woff");
+}
+  /* Attribute fuer Tabellen */
+  div.abs {
+   background-color:#f0f0f0;
+   margin:1em;
+   padding:15px;
+   font-family:Times,serif;
+   font-size:12pt;
+  }
+
+  div.abshidden {
+   background-color:#f0f0f0;
+   margin:1em;
+   padding:15px;
+   font-family:Times,serif;
+   font-size:12pt;
+   display:none;
+  }
+
+
+h2.heading {
+    font-family:'PT Sans Bold';
+    color:#0b386b;
+    font-size:large;
+    }
+
+h2.heading a {
+    font-family:'PT Sans Bold';
+    color:#0b386b;
+    font-size:large;
+    text-decoration:none;
+    }
+
+a {
+    text-decoration:underline;
+color: rgb(33, 117, 155);
+}
+
+
+ .title {
+ color:#004288;
+ font-style:italic;
+}
+  table.plan  {
+    border-spacing: 0pt ;
+    border-top: solid #004288 0pt;
+    border-left: solid #004288 0pt;
+    border-spacing: 0pt;
+  }
+
+  table.plan td {
+    border-right: solid #004288 0pt;
+    border-bottom: solid #004288 0pt;
+    border-top: solid #004288 0pt;
+    border-left: solid #004288 0pt;
+    padding-right:15pt;
+    padding-left:15pt;
+    padding-top:3pt;
+    padding-bottom:3pt;
+    text-align:left;
+    font-family: Verdana,Helvetica,Geneva,Arial,sans-serif;
+    font-size: 11pt;
+  }
+
+  /* CSS fuer die Navigationsleiste */
+
+  #navi {
+    width: 800px;
+    position: absolute;
+    display:block;
+    left: 20px;
+    top: 230px;
+    margin-top:00px;
+    background-color:white;
+    border-top: solid #d1aa67 1px;
+    border-bottom: solid #d1aa67 1px;
+
+  }
+
+  .navitem {
+    background-color:     white;
+    display:block;
+    border-width: 0px 0px 0px 0px;
+    border-color: #FFFFFF;
+    border-style: solid;
+    margin-right: 9px;
+    margin-top:15px;
+    margin-bottom:15px;
+    padding-bottom:1px;
+    border-bottom-width: 0px;
+    float: left;
+    text-align: left;
+    font-size: small;
+    color:#6a6a6a;
+    font-family:'PT Sans';
+  }
+
+  .navitem a  {
+    text-decoration:   none;
+    padding-left: 0px;
+    padding-right: 0px;
+    color:#6a6a6a;
+   }
+
+  .navitem a:hover  {
+    color:black;
+  }
+
+  /* CSS fuer Copyright-Eintrag */
+
+  span.copyright {
+    font-size:x-small;
+    text-align:right;
+    right:10px;
+    color:#004286;
+  }
+
+  span.copyright a {
+    font-size:x-small;
+    text-align:right;
+    right:10px;
+    color:#004286;
+    text-decoration:underline;
+  }
+
+  
+  
+ 
+  /* CSS fuer den Inhalt */
+
+  div.contents {
+    position:             absolute;
+    display:block;
+    left:                 20px;
+    top:                  280px;
+    width:800px;
+    text-align: justify;
+    font-size: medium;
+    font-family:'PT Sans';
+    color:#1f1f1f;
+    line-height:120%;
+  }
+  div.contents p {
+   margin-left:5px;
+}
+
+  div.contents ul {
+   margin-left:5px;
+}
+  div.contents dt {
+    border-color:#004286;
+    margin-top:15px;
+    margin-bottom:4px;
+    font-weight:bold;
+    border-bottom-style:solid;
+    border-width: thin;
+    padding:0px;
+    color:#004286;
+    border-top-style:none;
+    background-color:     #FBFBFB;
+    padding-bottom:2px;
+  }
+
+  div.contents dd {
+    margin-left:10px;
+    margin-top:5px;
+    margin-bottom:5px;
+    padding:0px;
+    position:relative;
+    right:0px;
+    width:670px;
+  }
+
+  div.contents dd a {
+    color:red;
+    text-decoration:none;
+    border-bottom-style:dotted;
+    border-width:thin;
+  }
+
+  div.contents h3 {
+    font-size:medium;
+    font-weight:bold;
+  }
+
+  /* CSS fuer Aufzaehlungslisten */
+
+  ul.list {
+    padding-top:9px;
+    padding-bottom:9px;
+  }
+
+  ul.list a {
+    color: #0A0A0A;
+  }
+
+  ul.list a:hover {
+    color: green;
+  }
+
+  ul.list li {
+    font-weight:normal;
+    list-style-type:square;
+    color:black;
+    padding-top:5px;
+    padding-bottom:2px;
+    margin-left:-20px;
+  }
+  
+   ul.pc li {
+    margin-left:-20px;
+    list-style-type:none;
+    padding-top:5px;
+    padding-bottom:5px;
+}   
+  </style>
+
+
+</head>
+
+<body style="width:100%; font-family:'PT Sans',Arial,sans-serif;">
+
+
+<div style="border-bottom-width: 0px; 
+            border-left-width : 0px; 
+            border-right-width : 0px; 
+            border-top-width : 0px; display : block; 
+            padding:20px;
+            height : 170px; 
+            left : 5px; 
+            position : absolute;
+            top : 0px; width:100px; padding-top:20px;   background-color:     #FFFFFF;">
+    <a href="http://vsl2014.at/"><img alt="VSL Logo" border="0px" src="./vsl_screen_rgb_200px.png" width="93px" height="100px" /></a>
+  </div>
+
+
+<div style="border-bottom-width: 0px; 
+            border-left-width : 0px; 
+            border-right-width : 0px; 
+            border-top-width : 0px; display : block; 
+            padding:20px;
+            height : 170px; 
+            left : 700px; 
+            width:100px;
+            position : absolute;
+            top : 0px; 
+            padding-top:20px;   
+            background-color:     #FFFFFF;">
+    <a href="http://vsl2014.at/"><img alt="FLoC Logo" border="0px" src="./floc_screen_rgb_100px.png" /></a>
+  </div>
+
+ 
+
+  <div style="border-bottom-width : 0px; border-left-width : 0px; border-right-width : 0px; border-top-width : 0px; left : 120px; position : absolute; top : 20px; width : 600px; height:100px;vertical-align : middle;color:#0b386b;background-color:white">
+    <h1 align="center" style="margin : 1px; padding: 1px;    font-family: 'PT Sans Bold';font-size:large;">First International Workshop on</h1>
+    <h1 align="center" style="margin : 1px; padding: 1px; font-family: 'PT Sans Bold'; font-size:x-large;">Rewriting Techniques for<br /> Program Transformations and Evaluation</h1>
+    <h4 align="center" style="margin : 1px; padding: 1px; font-family: 'PT Sans Bold';font-size:large;">affiliated with  <a href="http://vsl2014.at/rta-tlca">RTA/TLCA 2014</a>
+    </h4>
+<h4 align="center" style="margin : 1px; padding: 1px; font-family: 'PT Sans Bold';font-size:medium;">
+ (a <a href="http://vsl2014.at/floc-ws/">FLoC 2014 workshop</a>,  FLoC is part of the <a href="http://vsl2014.at/">Vienna Summer of Logic 2014</a>)
+</h4>
+    <h1 align="center" style="margin : 1px; padding: 1px;font-family:'PT Sans Bold';font-size:x-large;">
+        Vienna, Austria, 13<sup>th</sup> July 2014</h1>
+
+  </div>
+
+
+
+
+<div id="navi">
+<div class="navitem">
+<a href="./main.html#about">ABOUT</a>
+</div>
+<div class="navitem">
+<a href="./main.html#is">INVITED SPEAKER</a>
+</div>
+<div class="navitem">
+<a href="./accepted.html#proceedings">ACCEPTED PAPERS</a>
+</div>
+
+<div class="navitem">
+<a href="http://www.easychair.org/smart-program/VSL2014/WPTE-program.html">PROGRAM</a>
+</div>
+
+<div class="navitem">
+<a href="./main.html#proceedings">PROCEEDINGS</a>
+</div>
+
+
+<div class="navitem">
+<a href="./main.html#register">REGISTRATION</a>
+</div>
+
+
+<div class="navitem">
+<a href="./main.html#cfp">CFP</a>
+</div>
+
+
+<div class="navitem">
+<a href="./main.html#pc">PC</a>
+</div>
+
+
+<div class="navitem">
+<a href="./main.html#venue">VENUE</a>
+</div>
+
+<div class="navitem">
+<a href="./main.html#org">ORGANIZATION</a>
+</div>
+
+<div class="navitem">
+<a href="./main.html#spons">SPONSORS</a>
+</div>
+
+</div>
+
+<div class="contents">
+
+<h2 class="heading"><a name="about">About WPTE</a></h2>
+<p>
+The aim of WPTE is to bring together the researchers working 
+on program transformations, evaluation, and
+operationally based programming language semantics, using rewriting methods,
+in order to share the techniques and recent developments
+and to exchange ideas to encourage further activation
+of research in this area.
+</p>
+<p>Topics of interest in the scope of this workshop include:</p>
+<ul>
+<li>
+Correctness of program transformations, optimizations and translations.
+</li>
+<li>
+    Program transformations for proving termination, confluence and other properties.
+</li>
+<li>
+    Correctness of evaluation strategies.
+</li>
+<li>
+    Operational semantics of programs, operationally-based program equivalences such as contextual equivalences and bisimulations.
+</li>
+<li>
+    Cost-models for arguing about the optimizing power of transformations and the costs of evaluation.
+</li>
+<li>
+    Program transformations for verification and theorem proving purposes.
+</li>
+<li>
+    Translation, simulation, equivalence of programs with different formalisms, and evaluation strategies.
+</li>
+<li>
+    Program transformations for applying rewriting techniques to programs in specific programming languages.
+</li>
+<li>
+    Program inversions and program synthesis.
+</li>
+</ul>
+<p>The programming languages of interest include pure, deterministic, impure, nondeterministic, concurrent, parallel languages, and may employ programming paradigms such as functional, logical, typed, imperative, object-oriented, and higher-order.
+</p>
+<h2 class="heading"><a name="is">WPTE 2015</a></h2>
+<p>
+The <a href="http://www.trs.cm.is.nagoya-u.ac.jp/event/wpte2015/">Second International Workshop on Rewriting Techniques for
+Program Transformations and Evaluation</a> is a satellite event of <a href="http://rdp15.mimuw.edu.pl/index.php?site=main">RDP 2015</a>
+and takes place at Warsaw, Poland on 2nd July 2015!
+</p>
+
+
+
+
+<h2 class="heading"><a name="is">Invited Speaker</a></h2>
+<ul class="pc">
+<li><a href="http://www.ittc.ku.edu/csdl/fpg/users/andygill.html">Andy Gill</a> (University of Kansas):<br>
+HERMIT: An Equational Reasoning Model to
+Implementation Rewrite System for Haskell, <a href="./slides_andy_gill.pdf">slides</li>
+</ul>
+
+
+<h2 class="heading"><a name="proceedings">Proceedings</a></h2>
+<p>
+The WPTE-proceedings are published in the  <a href="http://www.dagstuhl.de/en/publications/oasics">OpenAccess Series in Informatics (OASIcs)</a> of <a href="http://www.dagstuhl.de/">Schloss Dagstuhl Leibniz-Zentrum f&uuml;r Informatik</a>. The proceedings are available via <a href="http://www.dagstuhl.de/dagpub/978-3-939897-70-5">http://www.dagstuhl.de/dagpub/978-3-939897-70-5</a>.<br>
+<br/>
+Extended abstracts on work in progress are not included in the OASIcs proceedings but
+they are included on the VSL flashdrive which is distributed to the workshop partipicants.
+</p>
+
+<h2 class="heading"><a name="register">Participation and Registration</a></h2>
+Registration is via the <a href="http://vsl2014.at/registration/">VSL registration system</a>. <br>
+Note that the early registration deadline ends on June 8!
+
+
+<h2 class="heading"><a name="cfp">Call for Papers</a></h2>
+<p>
+The <a href="cfp.pdf">call for papers</a> is also available in <a href="cfp.pdf">PDF-format</a> and <a href="cfp.txt">TXT-format</a>.
+<br/><br/>
+
+WPTE accepts two different kinds of contributions:
+</p><ul>
+<li><b>Full-papers</b>: Full-papers must represent original work and should be submitted using
+the <a href="https://www.easychair.org/conferences/?conf=wpte14">EasyChair interface</a>. We plan to publish full-papers as formal proceedings in
+the <a href="http://www.dagstuhl.de/en/publications/oasics">OpenAccess Series in Informatics (OASIcs)</a> of <a href="http://www.dagstuhl.de/en/about-dagstuhl/">Schloss Dagstuhl Leibniz-Zentrum
+fuer Informatik</a>. Full-papers should not exceed <b>12 pages</b> using the <a href ="http://drops.dagstuhl.de/styles/oasics/oasics-authors.tgz
+">OASIcs LaTeX templates</a>.<br/><br/>
+</li>
+<li><b>Work in progress</b>: 
+There will also be a slot for presenting work in progress. An extended
+abstract of <b>at most 4 pages</b> is required to be submitted using the <a href="https://www.easychair.org/conferences/?conf=wpte14">EasyChair
+interface</a>. These contributions will not be included in the
+OASIcs proceedings but they will be distributed to the workshop partipicants.
+</li>
+</ul>
+<p>One author of each accepted paper or abstract is expected to present it at the workshop.
+</p>
+<p><b>Important Dates:</b>
+</p>
+<ul>
+ <li>Submission deadline: 30 April 2014 via <a href="https://www.easychair.org/conferences/?conf=wpte14">https://www.easychair.org/conferences/?conf=wpte14</a>.</li>
+<li> Notification of acceptance: 23 May 2014</li>
+<li> Deadline for camera-ready proceedings: <font color="red">5 June 2014</font></li>
+<li> Workshop: 13 July 2014, Austria, Vienna</li>
+</ul>
+
+<h2 class="heading"><a name="pc">Program Committee</a></h2>
+<ul class="pc">
+<li>
+<a href="http://www.nue.riec.tohoku.ac.jp/user/aoto">Takahito Aoto</a> (RIEC, Tohoku University)</li>
+<li>
+<a href="http://www.jaist.ac.jp/~chiba/" class="person">Yuki Chiba</a> (Japan Advanced Institute of Science and Technology)</li>
+<li>
+<a href="http://www.cs.le.ac.uk/people/fdv1" class="person">Fer-Jan de Vries</a> (University of Leicester)</li>
+<li>
+<a href="http://www.dsic.upv.es/~sescobar" class="person">Santiago Escobar</a> (Universitat Polit&egrave;cnica de Val&egrave;ncia)</li>
+<li>
+<a href="http://www.inf.kcl.ac.uk/staff/maribel" class="person">Maribel Fern&aacute;ndez</a> (King's College London)</li>
+<li>
+<a href="http://www.cs.uu.nl/~johanj/" class="person">Johan Jeuring</a> (Open Universiteit Nederland and Universiteit Utrecht)</li>
+<li>
+<a href="http://www.pps.univ-paris-diderot.fr/~kesner/" class="person">Delia Kesner</a> (Université Paris-Diderot)</li>
+<li>
+<a href="http://www.loria.fr/~slenglet/" class="person">Sergueï Lenglet</a> (Université de Lorraine)</li>
+<li>
+<a href="http://cda.morris.umn.edu/~elenam/" class="person">Elena Machkasova</a> (University of Minnesota, Morris)</li>
+<li>
+<a href="http://researchers.lille.inria.fr/~niehren" class="person">Joachim Niehren</a> (INRIA Lille)</li>
+<li>
+<a href="http://www.ki.informatik.uni-frankfurt.de/persons/sabel/" class="person">David Sabel</a> (Goethe-University Frankfurt am Main)</li>
+<li>
+<a href="http://www.trs.cm.is.nagoya-u.ac.jp/~sakai/index.html.en" class="person">Masahiko Sakai</a> (Nagoya University) - chair</li>
+<li><a href="http://www.ki.informatik.uni-frankfurt.de/" class="person">Manfred Schmidt-Schauß</a> (Goethe-University Frankfurt am Main) - chair</li>
+<li>
+<a href="http://www.kb.ecei.tohoku.ac.jp/~sumii/" class="person">Eijiro Sumii</a> (Tohoku University)</li>
+<li>
+<a href="http://www.iai.uni-bonn.de/~jv/" class="person">Janis Voigtländer</a> (University of Bonn)</li>
+<li>
+<a href="http://cl-informatik.uibk.ac.at/~hzankl/" class="person">Harald Zankl</a> (University of Innsbruck)</li>
+</ul>
+
+<h2 class="heading"><a name="venue">Venue</a></h2>
+<p>Location: Freihaus (FH), H&ouml;rsaal 4 (Wiedner Hauptstraße 8-10, 1040 Vienna), 
+<a href="http://vsl2014.at/wp-content/uploads/2012_plan_tuw_04_EXPORT.png">overview map</a>.
+<p>
+<p>
+Information on the VSL meeting locations can be found on the page
+<a href="http://vsl2014.at/venue/locations/">http://vsl2014.at/venue/locations/</a>
+</p>
+<p>
+More information on the <a href="http://vsl2014.at/venue/">venue</a> can be found on 
+the <a href="http://vsl2014.at/venue/">venue pages</a> of <a href="http://vsl2014.at">VSL 2014</a>.
+
+</p>
+<h2 class="heading"><a name="org">Organization</a></h2>
+<ul class="pc">
+<li><a href="http://www.ki.informatik.uni-frankfurt.de">Manfred Schmidt-Schauß</a> (Goethe-University Frankfurt am Main) - chair</li>
+<li><a href="http://www.trs.cm.is.nagoya-u.ac.jp/%7Esakai/index.html.en">Masahiko Sakai</a> (Nagoya University) - chair</li>
+<li><a href="http://www.ki.informatik.uni-frankfurt.de/persons/sabel/">David Sabel</a> (Goethe-University Frankfurt am Main)</li>
+<li><a href="http://www.jaist.ac.jp/%7Echiba/">Yuki Chiba</a> (Japan Advanced Institute of Science and Technology)</li>
+</ul>
+
+<h2 class="heading"><a name="spons">Sponsors</a></h2>
+
+<table border="0" cellspacing="0" cellpadding="20"><tr>
+<td><a href="http://www.vff.uni-frankfurt.de/" style="text-decoration:none;"><img src="logovff.gif" alt="Logo"></img></a></td>
+<td width="400px">
+<a href="http://www.vff.uni-frankfurt.de/" style="text-decoration:none;"><strong>Vereinigung von Freunden und F&ouml;rderern<br/>
+der Johann Wolfgang Goethe Universit&auml;t<br/>
+ Frankfurt am Main e.V.</strong></a></td>
+</tr>
+
+
+</table>
+
+<div style="
+    display:block;
+    background-color:white;
+position:relative;  width:800px;left:00px; border-top: solid #d1aa67 1px;bottom:-5px;">
+    <span class="copyright">(c) 2013 <a href="http://www.ki.informatik.uni-frankfurt.de">KIST</a>, <a href="http://www.ki.informatik.uni-frankfurt.de/impressum.html">Imprint</a>, Last modified: $Author: sabel $, $Date: 2014/07/14 06:43:16 $
+    </span>
+</div>
+</div>
+
+</body>
+</html>

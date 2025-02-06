@@ -1,0 +1,249 @@
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="my.css"/>
+<title>
+WPTE 2023
+</title>
+</head>
+<body>
+
+<header>
+
+<h1>WPTE 2023</h1>
+<h1>10th International Workshop on Rewriting Techniques for Program Transformations and Evaluation</h1>
+
+<h2>Rome, Italy</h2>
+<h3>Part of FSCD/CADE 2023</h3>
+<h2>Saturday, July 1st, 2023</h2>
+
+<h4>Register at: <a href="https://easyconferences.eu/fscd2023/">https://easyconferences.eu/fscd2023/</a>.</h4>
+
+</header>
+
+<h2>About</h2>
+
+<p> The aim of WPTE is to bring together the researchers working on
+program transformations, evaluation, and operationally based
+programming language semantics, using rewriting methods, in order to
+share the techniques and recent developments and to exchange ideas to
+encourage further activation of research in this area.  </p>
+
+<h2>Important Dates</h2>
+
+<ul>
+  <li>Paper submission: <s>21 April 2023</s> <b>7 May 2023 AoE</b></li>
+  <li>Acceptance notifications: <s>22 May 2023</s> <b>7 June 2023</b></li>
+  <li>Final version: <s>10 June 2023</s> <b>18 June 2023</b></li>
+  <li>Workshop: Saturday, 1 July 2023</li>
+  <li>Formal post-proceedings: autumn 2023 (TBC)</li>
+</ul>
+
+<h2>Invited Speakers</h2>
+
+<p><a href="https://www.cs.bham.ac.uk/~drg/">Dan Ghica</a>, Huawei Research and Birmingham University, UK</p>
+  
+  <dl>
+    <dt><b>Title</b></dt>
+    <dd><p>Syntactic trinitarianism: terms, graphs, diagrams</p></dd>
+    <dt><b>Abstract</b></dt>
+    <dd><p>The concept of 'syntax' is commonly understood as the structure hidden in linear sequences of tokens,
+      which in language and logic we commonly call 'terms'. However, for the purpose of analysis and
+      transformation, compilers use more efficient data structures to represent syntax, namely graphs.
+      The gap between the linear (term) and graph syntax is elegantly bridged by a third formalism, namely
+      that of string diagrams, a planar representation of terms in the categorical representation of syntax.
+      In this tutorial talk I will show how the interplay of terms, graphs, and diagrams can help specify
+      and implement complex analyses and transformations in compilers for higher-order programming languages,
+      such as type inference, automatic differentiation, or closure conversion.
+      This methodology is at the foundation of a new industrial-strength compiler being implemented currently
+      at Huawei.</p>
+
+      <p>Most of the material I will discuss is based on the recent tutorial paper
+        "<a href="https://arxiv.org/abs/2305.18945">Hierarchical string diagrams and applications</a>" jointly with Fabio Zanasi.</p>
+    </dd>
+  </dl>
+
+<p><a href="http://cl-informatik.uibk.ac.at/users/ami/">Aart Middeldorp</a>, University of Innsbruck, Austria</p>
+
+  <dl>
+    <dt><b>Title</b></dt>
+    <dd><p>Hydra Battles, Termination, and Transformations</p></dd>
+    <dt><b>Abstract</b></dt>
+    <dd><p>The Battle of Hercules and Hydra is a combinatorial game introduced
+      by Kirby and Paris. In an influential paper they proved that the
+      termination of the Battle cannot be established in Peano arithmetic.
+      Several authors have modeled the Battle as a term rewrite system.
+      In this talk we review the various encodings and some of the termination
+      techniques used to prove the termination of the ensuing rewrite systems.</p></dd>
+  </dl>
+
+<h2>Accepted talks</h2>
+
+<ul>
+  <li><b>Rick Erkens</b>: <a href="paper3.pdf">Optimizing Term Rewriting with Creeper Trace Transducers</a>
+    <p>In the context of functional programming/term normalization algorithms we discuss the
+      optimization problem of constructing the result of a sequence of rewrite steps, without
+      computing all the intermediate terms. From a rewrite system we construct a so-called
+      creeper trace transducer, which reads a creeper trace while producing the desired answer.
+      The transducer skips overlap between each pair of subsequent rules, and in some cases a
+      part of the trace can be disregarded altogether.</p>
+  </li>
+  <li><b>Naoki Nishida, Misaki Kojima and Ayuka Matsumi</b>: <a href="paper1.pdf">A Nesting-Preserving Transformation of SIMP Programs into Logically Constrained Term Rewrite Systems</a>
+    <p>In the last decade, several transformations of an imperative program into a logically constrained term rewrite system (LCTRS, for short) have been investigated and extended. They do not preserve the nesting of statements, generating rewrite rules like transition systems, while function calls are represented by the nesting of function symbols. Structural features of the original program must be often useful in analyzing the transformed LCTRS, but, to use such features, we have to know how to transform the program into the LCTRS, e.g., we keep the correspondence between statements in the program and the introduced auxiliary function symbols in the LCTRS. In this paper, we propose a nesting-preserving transformation of a SIMP program (a C integer program) into an LCTRS. The transformation is almost based on previous work and introduces the nesting of function symbols that correspond to statements in the original program. To be more precise, we propose a construction of a tree homomorphism which is used as a post-process of the transformation in previous work, i.e., which is applied to the LCTRS obtained from the program. As a correctness of the nesting-preserving transformation, we show that the tree homomorphism is sound and complete for the reduction of the LCTRS.</p>
+  </li>
+  <li><b>Kasper Hagens and Cynthia Kop</b>: <a href="paper2.pdf">Matrix invariants for program equivalence in LCTRSs</a>
+    <p>When transforming a program into a more efficient version (for example by translating recursive functions into iterative ones), it is important that the input-output-behavior remains the same. One approach to assure this uses Logically Constrained Term Rewriting Systems (LCTRSs). Two versions of a program are translated into LCTRSs and compared in a proof system (Rewriting Induction). Proving their equivalence in this system often requires the introduction of a lemma. In this paper we present a new technique for generating invariants, using matrix calculations, and show how it can be combined with an existing method by Fuhs, Kop and Nishida to produce a lemma.</p>
+  </li>
+  <li><b>Andrei Nacu</b>: <a href="paper5.pdf">SpyType - Type Based Abstract Semantics for Python</a>
+    <p>Python is a high level programming language that is strongly, but dynamically typed. In this paper we
+propose a type inference framework to compute types for the variables within a Python program by using
+static code analysis.</p>
+  </li>
+  <li><b>Misaki Kojima and Naoki Nishida</b>: <a href="paper4.pdf">On Representations of Waiting Queues for Semaphores in Logically Constrained Term Rewrite Systems</a>
+    <p>A transformation of concurrent programs with semaphore-based exclusive control and waiting queues into logically constrained term rewrite systems (LCTRSs, for short) has been proposed. To represent waiting queues, the transformation adopts a turn waiting system with number tickets, while the use of usual lists is a straightforward approach. In this abstract, we show a list-based approach to waiting queues and compare the two approaches by means of verification of race freedom of a simple reader-writer example.</p>
+  </li>
+</ul>
+
+<h2>Tentative Program</h2>
+
+  <dl>
+    <dt><b>Session 1 (09:00-10:00)</b></dt>
+    <dd>
+      <ul>
+        <li>09:00-09:30: <i><a href="paper1.pdf">A Nesting-Preserving Transformation of SIMP Programs into Logically Constrained Term Rewrite Systems</a></i> by <u>Naoki Nishida</u>, Misaki Kojima and Ayuka Matsumi</li>
+        <li>09:30-10:00: <i><a href="paper2.pdf">Matrix invariants for program equivalence in LCTRSs</a></i> by <u>Kasper Hagens</u> and Cynthia Kop</li>
+      </ul>
+    </dd>
+    <dt><b>Session 2 (10:30-12:30)</b></dt>
+    <dd>
+      <ul>
+        <li>10:30-11:30: <b>(invited talk)</b> <i>Hydra Battles, Termination, and Transformations</i> by <u>Aart Middeldorp</u></li>
+        <li>11:30-12:00: <i><a href="paper3.pdf">Optimizing Term Rewriting with Creeper Trace Transducers</a></i> by <u>Rick Erkens</u></li>
+        <li>12:00-12:30: <i><a href="paper4.pdf">On Representations of Waiting Queues for Semaphores in Logically Constrained Term Rewrite Systems</a></i> by <u>Misaki Kojima</u> and Naoki Nishida</li>
+      </ul>
+    </dd>
+    <dt><b>Session 3 (14:00-15:30)</b></dt>
+    <dd>
+      <ul>
+        <li>14:00-15:00: <b>(invited talk)</b> <i><a href="https://arxiv.org/pdf/2305.18945.pdf">Syntactic trinitarianism: terms, graphs, diagrams</a></i> by <u>Dan Ghica</u></li>
+        <li>15:00-15:30: <i><a href="paper5.pdf">SpyType - Type Based Abstract Semantics for Python</a></i> by <u>Andrei Nacu</u>
+      </ul>
+    </dd>
+  </dl>
+
+<h2>Previous WPTEs</h2>
+
+<ul>
+<li>  <a href="https://wpte2022.github.io">WPTE 2022</a> in Haifa was
+  affiliated with <a href="http://www.cs.tau.ac.il/~nachumd/FSCD/">FSCD 2022</a>
+  at <a href="https://www.floc2022.org/">FLoC</a>.</li>
+
+<li>  <a href="https://www.ipl.riec.tohoku.ac.jp/wpte2021/">WPTE 2021</a> held online was
+  affiliated with <a href="https://fscd2021.dc.uba.ar/">FSCD</a> 2021.</li>
+
+<li>  <a href="http://maude.ucm.es/wpte20/">WPTE 2020</a> held online was
+  affiliated with <a href="https://fscd2020.org/">FSCD</a>-<a
+  href="https://ijcar2020.org/">IJCAR</a> 2020.</li>
+
+<li>  <a href="http://nigam.info/conferences/wpte2019/main.html">WPTE
+  2019</a> in Dortmund was affiliated with <a
+  href="http://easyconferences.eu/fscd2019/">FSCD 2019</a>.</li>
+
+<li>  <a
+  href="http://researchers.lille.inria.fr/niehren/WPTE-2018/main.html">WPTE
+  2018</a> in Oxford was affiliated with <a
+  href="http://www.floc2018.org/">FLoC 2018</a> and <a
+  href="http://www.cs.le.ac.uk/events/fscd2018">FSCD 2018</a>.</li>
+
+<li>  <a href="http://www.ki.informatik.uni-frankfurt.de/WPTE17">WPTE
+  2017</a> in Oxford was affiliated with <a
+  href="http://www.cs.ox.ac.uk/conferences/fscd2017/index.html">FSCD
+  2017</a>.</li>
+
+<li>  <a href="https://project.inria.fr/wpte2016/program">WPTE 2016</a> in
+  Porto was affiliated with <a
+  href="http://fscd2016.dcc.fc.up.pt/">FSCD 2016</a>.</li>
+
+<li>  <a href="http://www.trs.cm.is.nagoya-u.ac.jp/event/wpte2015">WPTE
+  2015</a> in Warsaw was affiliated with <a
+  href="http://rdp15.mimuw.edu.pl/">RDP 2015</a>.</li>
+
+<li>  <a href="http://www.ki.informatik.uni-frankfurt.de/WPTE14">WPTE
+  2014</a> in Vienna was affiliated with <a
+  href="http://www.easychair.org/smart-program/VSL2014/RTATLCA-cfp.html">RTA/TLCA
+  2014</a>.</li>
+  
+</ul>
+
+<h2>Topics of Interest</h2>
+
+<ul>
+  
+<li>Correctness of program transformations, optimizations and
+  translations.</li>
+  
+<li>Program transformations for proving termination, confluence, and
+  other properties.</li>
+  
+<li>Correctness of evaluation strategies.</li>
+  
+<li>Operational semantics of programs, operationally-based program
+  equivalences such as contextual equivalences and bisimulations.</li>
+  
+<li>Cost-models for arguing about the optimizing power of
+  transformations and the costs of evaluation.</li>
+  
+<li>Program transformations for verification and theorem proving
+  purposes.</li>
+  
+<li>Translation, simulation, equivalence of programs with different
+  formalisms, and evaluation strategies.</li>
+  
+<li>Program transformations for applying rewriting techniques to
+  programs in specific programming languages.</li>
+  
+<li>Program transformations for program inversions and program
+  synthesis.</li>
+  
+<li>Program transformation and evaluation for Haskell and
+  rewriting.</li>
+
+<li>Rewriting-based transformations for bidirectional programming and
+  reversible computation.</li>
+  
+</ul>
+
+<h2>Program Committee</h2>
+<ul>
+<li><a href="https://www.st-andrews.ac.uk/computer-science/people/adb23/">Adam Barwell</a>, University of St Andrews,, United Kingdom</li>
+<li><a href="https://profs.info.uaic.ro/~stefan.ciobaca/">Stefan Ciobaca</a>, Alexandru Ioan Cuza University, Romania (co-chair)</li>
+<li><a href="https://www.dcs.bbk.ac.uk/~carsten/">Carsten Fuhs</a>, Birkbeck University of London, United Kingdom</li>
+<li><a href="|https://mir-ikbch.github.io/">Mirai Ikebuchi</a>, National Institute of Informatics, Japan</li>
+<li><a href="https://www.cs.ru.nl/~cynthiakop/index_en.html">Cynthia Kop</a>, Radboud University, The Netherlands (co-chair)</li>
+<li><a href="https://davidnowak.github.io/">David Nowak</a>, CNRS, France</li>
+<li><a href="https://dblp.uni-trier.de/pid/243/1036.html">Rub&eacute;n Rubio</a>, Universidad Complutense de Madrid, Spain</li>
+<li><a href="https://www.st-andrews.ac.uk/computer-science/people/ss265">Susmit Sarkar</a>, University of St Andrews, United Kingdom</li>
+<li><a href="https://www.cs.tsukuba.ac.jp/~uhiro/">Hiroshi Unno</a>, University of Tsukuba, Japan</li>
+<li><a href="https://gvidal.webs.upv.es/">German Vidal</a>, MiST, VRAIN, Universitat Politecnica de Valencia, Spain</li>
+</ul>
+
+<h2>
+Steering Committee
+</h2>
+
+      <ul class="pc"> <li> <a
+        href="https://members.loria.fr/HCirstea/">Horatiu Cirstea</a>,
+        LORIA, Université de Lorraine, France </li> <li> <a
+        href="http://users.dsic.upv.es/~sescobar/">Santiago
+        Escobar</a>, Universitat Politècnica de València </li> <li> <a
+        href="http://researchers.lille.inria.fr/~niehren">Joachim
+        Niehren</a>, Inria, Lille.  </li> <li> <a
+        href="http://www.sakabe.i.is.nagoya-u.ac.jp/~nishida/">Naoki
+        Nishida</a>, Nagoya University </li> <li> <a
+        href="http://www.davidsabel.de/">David Sabel</a>, LMU Munich
+        </li> <li> <a
+        href="http://www.ki.informatik.uni-frankfurt.de/persons/schauss/schauss.html">Manfred
+        Schmidt-Schauß</a>, Goethe-University, Frankfurt am Main </li>
+        </ul>
+
+</body>
+</html>

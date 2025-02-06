@@ -1,0 +1,149 @@
+                            
+                              FINAL CALL FOR PAPERS
+
+                       Second International Workshop on
+     Rewriting Techniques for Program Transformations and Evaluation
+
+                                 WPTE 2015
+
+                         affiliated with RDP 2015
+ 
+                       2 July, 2015, Warsaw, Poland
+
+          http://www.trs.cm.is.nagoya-u.ac.jp/event/wpte2015/
+
+
+         !! Submission deadline is extended until April 24th !!
+
+
+
+Aims and Scope
+==============
+The aim of WPTE is to bring together the researchers working on
+program transformations, evaluation, and operationally-based
+programming language semantics, using rewriting methods, in order to
+share the techniques and recent developments and to exchange ideas to
+encourage further activation of research in this area. The previous
+WPTE was held in Vienna 2014.
+
+Topics of interest in the scope of this workshop include:
+
+* Correctness of program transformations, optimizations and translations.
+* Program transformations for proving termination, confluence and
+  other properties.
+* Correctness of evaluation strategies.
+* Operational semantics of programs, operationally-based program
+  equivalences such as contextual equivalences and bisimulations.   
+* Cost-models for reasoning about the optimizing power of
+  transformations and the costs of evaluation.
+* Program transformations for verification and theorem proving
+  purposes. 
+* Translation, simulation, equivalence of programs with different
+  formalisms, and evaluation strategies.
+* Program transformations for applying rewriting techniques to
+  programs in specific programming languages.
+* Program transformations for program inversions and program
+  synthesis. 
+* Program transformation and evaluation for Haskell and Rewriting.
+
+The programming languages of interest include pure, deterministic,
+impure, nondeterministic, concurrent, parallel languages, and may
+employ programming paradigms such as functional, logical, typed,
+imperative, object-oriented, and higher-order.
+
+'Program transformation and evaluation for Haskell and Rewriting' is a
+new topic of this workshop: equational reasoning and other rewriting
+techniques for program verification and analysis; lambda calculi and
+type systems for functional programs and higher-order rewrite systems;
+rewriting of type expressions in the type checker; rewriting of
+programs by refactoring tools, optimizers, code generators; execution
+of programs as a form of graph rewriting (terms with sharing);
+Template Haskell, generally introducing a rewriting-like macro
+language into the compilation process; rewriting modulo commonly
+occurring axioms such as associativity, commutativity,
+and identity element.
+
+Invited Speaker
+===============
+Brigitte Pientka (McGill University)
+
+Proceedings
+===========
+The WPTE-proceedings will be published in the 'OpenAccess Series in
+Informatics (OASIcs)' of 'Schloss Dagstuhl Leibniz-Zentrum fuer
+Informatik' by the workshop day.
+
+Extended abstracts on work in progress are not included in the OASIcs
+proceedings but they will be included in the USB memory which is
+distributed to the RDP participants. 
+
+Paper Submissions
+=================
+WPTE accepts two different kinds of contributions:
+
+* Full-papers: 
+  ------------
+   Full-papers must represent original work and should be submitted
+   using the OASIcs LaTeX templates. Full-papers should not exceed 12
+   pages. Accepted papers will be included in the OASIcs proceedings. 
+
+* Work in progress:
+  -----------------
+   There will also be a slot for presenting work in progress. An
+   extended abstract of at most 4 pages is required to be submitted
+   using the OASIcs LaTeX templates. These contributions will not be
+   included in the OASIcs proceedings for full-papers but they will be
+   distributed to the workshop participants.
+
+One author of each accepted paper or abstract is expected to present 
+it at the workshop.
+
+Important Dates
+===============
+* Submission deadline: 24 April 2015  (Extended!)
+* Notification of acceptance: 15 May 2015
+* Deadline for camera-ready proceedings: 29 May 2015
+* Workshop:  2 July 2015, Warsaw, Poland
+
+Weblinks
+========
+* EasyChair Submission Website
+  https://www.easychair.org/conferences/?conf=wpte2015
+
+* Homepage of WPTE 2015
+  http://www.trs.cm.is.nagoya-u.ac.jp/event/wpte2015/
+
+* OASIcs Website (including LaTeX templates):
+  http://www.dagstuhl.de/en/publications/oasics
+
+* RDP 2015
+  http://rdp15.mimuw.edu.pl
+
+Program Committee
+=================
+Takahito Aoto           (RIEC, Tohoku University)
+Yuki Chiba              (JAIST)
+Fer-Jan de Vries        (University of Leicester)
+Santiago Escobar        (Universitat Politecnica de Valencia) - chair
+Johan Jeuring           (Open Universiteit Nederland and Universiteit Utrecht)
+Delia Kesner            (Universite Paris-Diderot)
+Serguei Lenglet         (Universite de Lorraine)
+Elena Machkasova        (University of Minnesota, Morris)
+William Mansky          (University of Pennsylvania)
+Joachim Niehren         (INRIA Lille)
+Naoki Nishida           (Nagoya University) - chair
+Kristoffer H Rose       (Two Sigma Investments, LLC)
+David Sabel             (Goethe-University Frankfurt am Main)
+Masahiko Sakai          (Nagoya University)
+Manfred Schmidt-Schauss (Goethe-University Frankfurt am Main)
+Janis Voigtlaender      (University of Bonn)
+Johannes Waldmann       (HTWK Leipzig)
+Harald Zankl            (University of Innsbruck)
+
+Organizers
+==========
+Yuki Chiba              (JAIST)
+Santiago Escobar        (Universitat Politecnica de Valencia)
+Naoki Nishida           (Nagoya University) - chair
+Manfred Schmidt-Schauss (Goethe-University Frankfurt am Main) - chair
+David Sabel             (Goethe-University Frankfurt am Main)

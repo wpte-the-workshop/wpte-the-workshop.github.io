@@ -1,0 +1,12 @@
+/*
+Theme Name:     Inria
+Theme URI:      http://team.inria.fr/userdocumentation
+Description:    this child theme is based on the graphene theme. We customized it to give your site the Inria look.
+Author:         Lud0vicB
+Author URI:     http://wiki.inria.fr/seism
+Template:       graphene
+Version:        1.0
+*/
+@import url("style-graphene.css");
+@import url("inria.css");
+

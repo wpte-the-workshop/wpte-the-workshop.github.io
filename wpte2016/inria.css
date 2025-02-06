@@ -1,0 +1,186 @@
+                                /* HAL */
+/* remove image shadow for HAL items */
+#res_script
+img {
+    border: 0px ;
+    margin: 0px;
+}
+                                /* HEADER */
+/* a retirer lors de la maj team.inria.fr le 08/10/12 
+.container_16 .push_1 {
+	top: 50px;
+	left: 50px;
+} */
+                                /* CONTENT */
+/* puce charte inria */
+.entry-content ul li {
+    list-style-image: url("//commons.inria.fr/team/liste.png");
+}
+/* couleur de la date en rouge */
+.post .date {
+	background: url(//commons.inria.fr/team/sprite_master.1.6.png) -325px top no-repeat;
+	#height: 49px;
+}
+/* pas de puce dans les TOC */
+#toc_container.no_bullets ul, #toc_container.no_bullets li, .toc_widget_list, .toc_widget_list li {
+	list-style-type: none;
+	list-style-image: url("");
+}
+#toc_container ul, #toc_container li {
+	list-style-image: none;
+	list-style-type: none;
+}
+/* title color = INRIA red */
+h1.page-title {
+	background: #E33729;
+}
+/* divers titres */
+.entry-content h1, .comment-entry h1 {
+    font-weight: bold;
+}
+.entry-content h2, .comment-entry h2 {
+    font-size: 18px;
+    font-weight: bold;
+}
+.entry-content h3, .comment-entry h3 {
+    font-size: 16px;
+    font-weight: bold;
+}
+.post-title, .post-title a {
+	color: #E33729;
+}
+/* liens */
+a {
+	color: #E33729;
+}
+a:hover {
+	color: #c33729;
+	text-decoration: underline;
+}
+/* background */
+#content, .menu-bottom-shadow, #sidebar_bottom {
+	background-color: white;
+}
+/* contenu */
+.post {
+	background-color: #f5f5f5;
+}
+                                /* FOOTER */
+/* hide copyright in the footer */
+#copyright h3 {
+	color: #363842;
+}
+/* header and footer color */
+#footer {
+    background: #363842;
+    border-top: 0px;
+    padding-top: 10px;
+}
+/* remove borders */
+.entry-footer {
+    border-top: 0px;
+}
+.sidebar ul li {
+	border-bottom-width: 0px;
+}
+/* footer widget area color */
+#sidebar_bottom {
+    background: #363842;
+}
+                                /* MENUs */
+/* Menu background color */
+#header-menu-wrap {
+	background: none;
+}
+#header-menu {
+	background: #fff;
+}
+/* Menu items color */
+#header-menu > li {
+	background: #E33729;
+}
+#header-menu > li:hover {
+	background: #F37759;
+}
+#header-menu > li.current-menu-item,
+#header-menu > li.current-menu-ancestor {
+	background: #363842;
+}
+#header-menu > li:hover > a,
+#header-menu > li.current-menu-item > a,
+#header-menu > li.current-menu-ancestor > a {
+	color: #fff;
+}
+/* Sub level header menu color */
+#header-menu ul li a {
+	color: #E33729;
+}
+#header-menu ul li {
+	background: #F5F5F5;
+}
+#header-menu ul li.menu-item-ancestor > a {
+	background: #F5F5F5;
+}
+/* Sub level header menu, hover and current state */
+#header-menu ul li:hover {
+	background-color: #F37759;
+}
+#header-menu ul li.current-menu-item,
+#header-menu ul li.current-menu-ancestor {
+	background-color: #363842;
+}
+#header-menu ul li:hover > a,
+#header-menu ul li.current-menu-item > a,
+#header-menu ul li.current-menu-ancestor > a {
+	color: #fff;
+}
+								/* TOPBAR */
+#top-bar {
+	background: #363842;
+	border-bottom: 0px;
+	height: 40px;
+}
+#top_search {
+	margin-top: 8px;
+}
+#profiles {
+	padding-top: 4px;
+}
+#rss {
+    padding: 7px 0 0 23px;
+}
+								/* BACKGROUND */
+body {
+	background: none;
+}
+.bg-gradient {
+	background: none;
+}
+								/* WIDGET */
+.sidebar h3 {
+	background: #F5F5F5;
+	color: #E33729;
+	border-bottom: 1px solid #363842;
+	text-shadow: none;
+}
+.sidebar div.sidebar-wrap {
+	background-color: #F5F5F5;
+}
+								/* BOUTONs */
+.block-button, .block-button:visited, .Button, .button, #commentform #submit {
+	background: #E33729;
+	box-shadow:  0 1px 5px #363842;
+	text-shadow: none;
+	border: 1px solid #f5f5f5;
+}
+.block-button:hover {
+	background: #c33729;
+	box-shadow:  0 1px 5px #363842;
+	text-shadow: none;
+	border: 1px solid #f5f5f5;
+}
+								/* SLIDER */
+.featured_slider {
+	background: -webkit-linear-gradient(left top, #c33729, #E33729);
+}
+

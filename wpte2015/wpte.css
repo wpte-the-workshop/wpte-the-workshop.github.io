@@ -1,0 +1,266 @@
+@font-face {
+  font-family: "PT Sans Bold";
+  font-style: normal;
+  font-weight: 700;
+  src: local("PT Sans Bold"), local("PTSans-Bold"), url("http://themes.googleusercontent.com/static/fonts/ptsans/v5/0XxGQsSc1g4rdRdjJKZrNBsxEYwM7FgeyaSgU71cLG0.woff") format("woff");
+}
+
+
+@font-face {
+  font-family: "PT Sans";
+  font-style: normal;
+  font-weight: 400;
+  src: local("PT Sans"), local("PTSans-Regular"), url("http://themes.googleusercontent.com/static/fonts/ptsans/v5/LKf8nhXsWg5ybwEGXk8UBQ.woff") format("woff");
+}
+
+  body {
+    font-family:'PT Sans',Arial,sans-serif;
+  }
+
+  .toptitle {
+      border-bottom-width : 0px;
+      border-left-width : 0px;
+      border-right-width : 0px;
+      border-top-width : 0px;
+      width : 800px;
+      color:#0b386b;
+      align:center;
+      margin-top:20px;
+      margin-bottom:20px;
+      margin-left:10px;
+  }
+
+  /* Attribute fuer Tabellen */
+  div.abs {
+   background-color:#f0f0f0;
+   margin:1em;
+   padding:15px;
+   font-family:Times,serif;
+   font-size:12pt;
+  }
+
+  div.abshidden {
+   background-color:#f0f0f0;
+   margin:1em;
+   padding:15px;
+   font-family:Times,serif;
+   font-size:12pt;
+   display:none;
+  }
+
+  h1 {
+      margin : 1px;
+      padding: 1px;
+      font-family: 'PT Sans Bold';
+      font-size:x-large;
+  }
+
+  h4 {
+      margin : 1px;
+      padding: 1px;
+      font-family: 'PT Sans Bold';
+      font-size:large;
+  }
+
+h2.heading {
+    font-family:'PT Sans Bold';
+    color:#0b386b;
+    font-size:large;
+    }
+
+h2.heading a {
+    font-family:'PT Sans Bold';
+    color:#0b386b;
+    font-size:large;
+    text-decoration:none;
+    }
+
+a {
+    text-decoration:underline;
+color: rgb(33, 117, 155);
+}
+
+
+ .title {
+ color:#004288;
+ font-style:italic;
+}
+  table.plan  {
+    border-spacing: 0pt ;
+    border-top: solid #004288 0pt;
+    border-left: solid #004288 0pt;
+    border-spacing: 0pt;
+  }
+
+  table.plan td {
+    border-right: solid #004288 0pt;
+    border-bottom: solid #004288 0pt;
+    border-top: solid #004288 0pt;
+    border-left: solid #004288 0pt;
+    padding-right:15pt;
+    padding-left:15pt;
+    padding-top:3pt;
+    padding-bottom:3pt;
+    text-align:left;
+    font-family: Verdana,Helvetica,Geneva,Arial,sans-serif;
+    font-size: 11pt;
+  }
+
+  /* CSS fuer die Navigationsleiste */
+
+  #navi {
+    width: 800px;
+    display:block;
+    margin-top:10px;
+    margin-bottom:5px;
+    margin-left:10px;
+    background-color:white;
+    border-top: solid #d1aa67 1px;
+    align:center;
+  }
+
+  .navitem {
+    border-width: 0px 0px 0px 0px;
+    border-color: #FFFFFF;
+    border-style: solid;
+    font-size: small;
+    float:left;
+    color:#6a6a6a;
+    font-family:'PT Sans';
+    text-align:center;
+    margin-top:5px;
+    margin-left:5px;
+    margin-right:5px;
+    margin-bottom:0px;
+  }
+
+  .navitem a  {
+    text-decoration:   none;
+    padding-left: 0px;
+    padding-right: 0px;
+    color:#6a6a6a;
+   }
+
+  .navitem a:hover  {
+    color:black;
+  }
+
+  /* CSS fuer Copyright-Eintrag */
+
+  span.copyright {
+    font-size:x-small;
+    text-align:right;
+    right:10px;
+    color:#004286;
+  }
+
+  span.copyright a {
+    font-size:x-small;
+    text-align:right;
+    right:10px;
+    color:#004286;
+    text-decoration:underline;
+  }
+
+  div.title {
+      border-bottom-width : 0px;
+      border-left-width : 0px;
+      border-right-width : 0px;
+      border-top-width : 0px;
+      left : 120px;
+      position : absolute;
+      top : 20px;
+      width : 600px;
+      height:100px;
+      vertical-align : middle;
+      color:#0b386b;
+      background-color:white;
+  }
+ 
+  /* CSS fuer den Inhalt */
+
+  div.contents {
+    border-top: solid #d1aa67 1px;
+    display:block;
+    margin-left:10px;
+    width:800px;
+    text-align: justify;
+    font-size: medium;
+    font-family:'PT Sans';
+    color:#1f1f1f;
+    line-height:120%;
+  }
+
+  div.contents p {
+   margin-left:5px;
+}
+
+  div.contents ul {
+   margin-left:5px;
+}
+  div.contents dt {
+    border-color:#004286;
+    margin-top:15px;
+    margin-bottom:4px;
+    font-weight:bold;
+    border-bottom-style:solid;
+    border-width: thin;
+    padding:0px;
+    color:#004286;
+    border-top-style:none;
+    background-color:     #FBFBFB;
+    padding-bottom:2px;
+  }
+
+  div.contents dd {
+    margin-left:10px;
+    margin-top:5px;
+    margin-bottom:5px;
+    padding:0px;
+    position:relative;
+    right:0px;
+    width:670px;
+  }
+
+  div.contents dd a {
+    color:red;
+    text-decoration:none;
+    border-bottom-style:dotted;
+    border-width:thin;
+  }
+
+  div.contents h3 {
+    font-size:medium;
+    font-weight:bold;
+  }
+
+  /* CSS fuer Aufzaehlungslisten */
+
+  ul.list {
+    padding-top:9px;
+    padding-bottom:9px;
+  }
+
+  ul.list a {
+    color: #0A0A0A;
+  }
+
+  ul.list a:hover {
+    color: green;
+  }
+
+  ul.list li {
+    font-weight:normal;
+    list-style-type:square;
+    color:black;
+    padding-top:5px;
+    padding-bottom:2px;
+    margin-left:-20px;
+  }
+  
+   ul.pc li {
+    margin-left:-20px;
+    list-style-type:none;
+    padding-top:5px;
+    padding-bottom:5px;
+}   
